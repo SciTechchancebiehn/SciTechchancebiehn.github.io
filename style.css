@@ -29,3 +29,11 @@ a{
 body{
 	background-color:skyblue;
 }
+textarea{
+	resize: none;
+	border: 2px solid blue;
+	transition: 0.5s ease-in;
+}
+textarea.focus{
+	border: 5px solid darkblue;
+}
